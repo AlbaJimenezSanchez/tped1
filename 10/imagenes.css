@@ -1,0 +1,52 @@
+header {
+    background-color: antiquewhite;
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+section {
+    background-color: tan;
+     padding: 30px;
+    margin: 30px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+}
+
+h4{
+    font-size: 30px;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+}
+
+h5{
+    font-size: 30px;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+}
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px; height: 300px;
+        
+}
+
+a:hover img {
+    filter: saturate(2);
+}
