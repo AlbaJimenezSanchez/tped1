@@ -1,0 +1,104 @@
+h1{  
+
+font-family: Helvetica, Roboto, Arial, sans-serif; 
+color: whitesmoke; 
+font-size: 70px; 
+text-align: center; 
+padding-top: 70px; 
+margin-bottom: 90px;
+
+} 
+
+
+  
+p{  
+
+text-align: center; 
+font-family: Helvetica, Roboto, Arial, sans-serif; 
+color: whitesmoke; 
+font-size: 25px; 
+font-style: italic; 
+padding-bottom: 30px; 
+
+} 
+
+  
+a {  
+    
+color: whitesmoke;} 
+  
+
+a. visited{ 
+    
+color:beige; } 
+  
+
+  
+
+img{  
+
+filter: saturate(0); 
+margin-bottom: 40px; } 
+
+
+
+a:hover img { 
+
+filter: saturate(1); } 
+
+
+
+body { 
+
+background-color: black; 
+margin: 0; } 
+
+
+
+.abuelo{ 
+    
+display: flex;
+flex-direction: row; }  
+
+
+
+.padre { 
+
+display: flex; 
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+height: 100vh;
+overflow-y: auto; } 
+
+.ganso {
+    
+    padding: 0%;
+}
+
+
+
+.columna{
+    
+display: flex;
+flex-direction: column;
+margin-left: 25px;
+margin-right: 25px; }
+
+
+
+.columna:nth-child(even) {
+    
+padding-top: 32px; }
+
+
+  
+header{
+    
+flex: 2; }
+
+  
+
+#otro { 
+
+align-self:flex-end; } 
