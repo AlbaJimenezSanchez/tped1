@@ -1,0 +1,137 @@
+.adobe, .ps, .ai {
+     width: 50px; height: 50px;
+     z-index: 1;
+}
+
+.adobe{
+    position: relative;
+    left: 10%;
+    background-color: firebrick;
+    padding: 20px;
+  
+}
+
+.lista li{
+    position: relative;
+    display: inline;
+    margin: 20px;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    left: 350%;
+    color: whitesmoke;
+    top: 5%;
+}
+
+.padre{
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.fondo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.textogrande{
+    font-size: 35px;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    top: 30%;
+    right: 17%;
+    height: 13vh;
+}
+
+.textocon{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 15px;
+    top: 45%;
+    right: 47%;
+    height: 10vh;
+}
+
+.info {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 15px;
+    top: 57%;
+    right: 71%;
+    color: dodgerblue;
+    height: 3vh;
+}
+
+.plan{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 15px;
+    top: 62%;
+    right: 84%;
+    color: white;
+    height: 5vh;
+    background-color: dodgerblue;
+    width: 125px;
+    text-align: center;
+    padding-top: 20px;
+        
+}
+
+.cosmo{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 20px;
+    height: 15px;
+    left: 60%;
+    top: 20%
+}
+
+.app{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 20px;
+    height: 15px;
+    left: 45%;
+    top: 30%;
+}
+
+.pps{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 20px;
+    height: 15px;
+    left: 50%;
+    top: 30%;
+    
+}
+
+.illu{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 20px;
+    height: 15px;
+    left: 55%;
+    top: 30%;
+}
+
+.ps{
+    left: 37%;
+    top: 30%;
+}
+
+.ai{
+    left: 44%;
+    top: 30%;
+    
+}
+
+.color{
+    height: 30px;
+    left: 25%;
+    top: 38%;
+
+    
+}
+.lista, .textogrande, .textocon, .info, .plan, .cosmo, .app, .pps, .illu, .ps, .ai, .color{
+    position: relative;
+    z-index: 1;
+}
+
+
+
