@@ -1,0 +1,67 @@
+
+
+.plantilla{
+  
+    font-family:  'Big Shoulders Stencil Text', cursive;
+   
+}
+
+.cartoon{
+    position: relative;
+    font-family: 'Carter One', cursive;
+   
+}
+
+.mono{
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+  
+}
+
+.almost{
+  
+    font-family: 'Indie Flower', cursive;
+   
+}
+
+.script{
+
+    font-family: 'Rouge Script', cursive;
+ 
+}
+
+.buda{
+    
+    font-family:  'Buda', cursive;
+   
+}
+
+.chau{
+
+    font-family:  'Chau Philomene One', sans-serif;
+   
+}
+
+.piedra{
+   
+    font-family: 'Piedra', cursive;
+   
+}
+
+.space{
+   
+   font-family:  'VT323', monospace;
+  
+}
+
+h1{
+    
+    font-size: 40px;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+}
+p{
+   font-size: 20px;
+   
+}
