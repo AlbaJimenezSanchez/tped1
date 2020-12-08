@@ -1,0 +1,50 @@
+
+
+header{
+    background-color: bisque;
+    margin: 15px;
+    width: 50%;
+   
+}        
+
+div {
+            box-sizing: border-box; 
+        }
+        nav {
+            background-color: aqua;
+            
+        }
+        #galeria {
+          
+            display: flex; /* al ser col Boostrap ya le pone Flex */
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 80vh; /* 80% altura pantalla */
+            overflow: auto;
+        }        
+        #galeria div {
+        
+            
+            width: 100%; /* se aplica desde min-width 0 hasta 768px */
+        }        
+        @media (min-width: 768px) {
+            #galeria div{
+                width: 50%;  /* se aplica desde min-width desde 768px */
+            }
+        }        
+        #img1 {
+            height: 800px; 
+                        background-color: pink;
+        }
+        #img2 {
+            height: 500px;       
+            background-color: darkcyan;
+            
+        }
+       
+        footer {
+            height: 20vh; /* 20% altura pantalla */
+        }
+        footer div {
+            background-color: chartreuse;
+        }

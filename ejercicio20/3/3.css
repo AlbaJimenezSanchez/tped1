@@ -1,0 +1,44 @@
+
+        div {
+            box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+        }
+        nav {
+            background-color: aqua;
+            height: 62vh;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 5px;
+        }
+             
+        #galeria div {
+            margin: 5px;
+            /* se aplica desde min-width 0 hasta 768px */
+        }        
+        @media (min-width: 768px) {
+            #galeria div{
+                width: 100%;  /* se aplica desde min-width desde 768px */
+            }
+        }        
+        #img1 {
+            background-color: pink;
+            height: 25%;
+            
+        }
+        #img2 {
+      
+            background-color: chocolate;
+            padding-left: 10px;
+            padding-right: 10px;
+           height: 70%
+            
+            
+            
+        }
+       
+        footer {
+            height: 20vh; /* 20% altura pantalla */
+        }
+        footer div {
+            background-color: chartreuse;
+        }
+  
