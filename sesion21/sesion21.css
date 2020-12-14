@@ -1,0 +1,44 @@
+div {
+            box-sizing: border-box; 
+        }
+
+.container-fluid{
+    margin: 0;
+    padding:  0;
+   
+}
+
+header{
+    
+    width: 100vh;
+    height: 10vh;
+}
+
+#primerodos{
+
+    height: 30vh;
+}
+
+#primero{
+ 
+    height: 30vh;
+    width: 100vh;
+   margin-bottom: 20%;
+    
+}
+
+#segundo{
+    height: 40vh;
+   align-content: center;
+  
+    margin: 5px;
+    padding: 10px;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;    
+    
+}
+
+#pie{
+ 
+}
