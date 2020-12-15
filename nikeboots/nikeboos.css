@@ -1,0 +1,166 @@
+
+div {
+            box-sizing: border-box; 
+        }
+
+.menu{
+   
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.scroll { 
+ 
+flex-wrap: wrap;
+height: 100vh;
+    
+}
+    
+#contenedor{
+    position: relative;
+    display: inline-block;
+   
+}
+img{
+    height: 50%;
+    
+}
+
+#textosup{
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    z-index: 1;
+    
+
+    
+    }
+
+#nike{
+
+    color: white;
+    font-family: Arial, sans-serif; 
+    font-size: 40px;
+   
+}
+
+.col-12{
+     padding: 0%;
+    margin: 0%;
+    
+}
+
+h2 {
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: lighter;
+      margin-top: 60%
+   
+    
+    }
+   
+h2 span {
+   color: gray;
+    font-size: 40pt;
+      margin-top: 50%;
+  
+}
+
+
+
+p {
+    font-size: 15px;
+    letter-spacing: 1px;   
+    line-height: 20px;
+    width: 400px;
+    padding-left: 50px;
+    z-index: 1;
+  
+    
+  
+}
+
+#cajabaja {
+margin-top: 50%;
+    height: 20vh;
+    font-weight: 00;
+    margin-top:  20px;
+    color: darkgrey; 
+
+}
+
+ul{
+
+    height: 20vh;
+    width: 100%;   
+    font-size: 7px;
+    letter-spacing: 1px;
+    color: darkgrey;
+    
+    padding-left: 40px;
+    list-style: none
+
+}
+
+
+li {
+    padding: 5px;
+    font-size: 15px;
+ 
+}
+#hastag a:hover{
+    text-decoration: line-through;
+    position: relative;
+    left: 4px;
+}
+
+#visual a:hover{
+
+    border-bottom: 2px solid;
+    color: coral;
+    position: relative;
+    left: 4px;
+}
+
+#experiencia a:hover{
+    position: relative;
+    left: 4px;
+}
+
+a:link{
+    
+text-decoration: none;
+}
+
+
+#cajanegra{
+    width: 100%;
+    height: 30vh;
+    margin-top:  30px;
+    color: darkgrey;
+    background-color: black;
+    padding: 50px;
+    
+}
+
+dt{
+
+    height: 2vh;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: darkgrey;
+    width: 100%;
+    font-family: Helvetica, sans-serif; 
+    font-weight: 0;
+    padding: 5px;
+  
+    
+}
+
+
