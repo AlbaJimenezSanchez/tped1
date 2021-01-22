@@ -1,0 +1,118 @@
+#padre{
+display: flex; 
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+
+}
+
+
+#menu{
+    
+    background-color: black;
+    font-family: Roboto, Verdana, Arial,sans-serif;
+    font-size: 20px;
+    color: beige;
+    padding: 50px;
+    text-align: center;
+    margin:0;
+
+   
+}
+a:link{
+    
+text-decoration: none;
+    color: white;
+}
+
+#inicio a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+
+
+#blog a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+#proyectos a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+#sobre a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+#contacto a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+
+li{
+    display:inline;
+    padding: 20px;
+    
+}
+
+#imagenp{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+
+#columna{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+}
+
+#alba{
+    
+    width: 50%;
+    height: 600px;
+  
+} 
+
+a:visited{
+    color: white;
+}
+
+#mono{
+    
+    width: 50%;
+    
+}
+
+#cromo{
+    width: 50%;
+}
+
+#reportaje{
+    width: 50%;
+}
+

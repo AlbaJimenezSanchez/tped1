@@ -1,0 +1,125 @@
+.navbar-brand img {
+    height: 30px;
+}
+
+.carousel-item {
+    text-align: center;
+    
+}
+.carousel-inner img {
+    width: auto;
+    max-height: 400px;
+}
+
+
+#carrusel {
+    background-color: black;
+}
+
+
+header{
+    margin-bottom: 20px;
+}
+
+#titulo{
+    margin-left: 20px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+
+}
+
+#menu{
+    
+    background-color: black;
+    font-family: Roboto, Verdana, Arial,sans-serif;
+    font-size: 20px;
+    color: beige;
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+
+   
+}
+a:link{
+    
+text-decoration: none;
+    color: white;
+}
+
+
+#inicio a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+#blog a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+#proyectos a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+#sobre a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+#contacto a:hover{
+     text-decoration: none;
+    border-bottom: 2px solid;
+    color: white;
+    position: relative;
+    left: 4px;
+}
+
+a:visited{
+    color: white;
+}
+
+
+li{
+    display:inline;
+    padding: 20px;
+    
+}
+
+footer{
+margin-top: 40px;
+background-color: black;
+height: 100px;
+text-align: center;
+padding: 40px;
+
+}
+
+button {
+    background-color: black;
+    color: white;
+  
+    
+}
+
+#subtitulosblog{
+    font-size: 30px;
+    margin-bottom: 0%;
+    margin-top: 60px;
+    font-family: Roboto, Verdana, Arial, sans-serif;
+}
+
+
