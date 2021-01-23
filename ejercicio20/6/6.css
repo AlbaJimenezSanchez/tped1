@@ -1,0 +1,26 @@
+header{
+    background-color: aqua;
+    height: 20vh;
+}
+
+nav{
+    background-color: antiquewhite;
+    height: 90vh;
+    margin-top: 10%;
+}
+
+p{
+    margin-top: 10%;
+    background-color:cadetblue;
+    height: 90vh;
+    
+}
+
+#publi{
+    background-color: bisque;
+}
+
+footer{
+    
+background-color: dimgray;
+}
