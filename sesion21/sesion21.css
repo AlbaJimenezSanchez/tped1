@@ -1,0 +1,39 @@
+div {
+     box-sizing: border-box; 
+        }
+
+.container-fluid{
+    margin: 0;
+    padding:  0;
+   
+}
+
+.menuh {
+    display: flex;
+    align-items: center; 
+    height: 200px;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    color: green;
+    padding: 20px;
+}
+
+#botones{ 
+    
+    font-size: 20px;
+    align-items: center;
+}
+
+h1{
+    color: mediumaquamarine;
+}
+
+#library {
+    text-align: center;
+    margin-top: 50px;
+}
