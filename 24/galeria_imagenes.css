@@ -1,0 +1,167 @@
+body{
+    font-family: Helvetica, Roboto, Arial, sans-serif; 
+}
+
+
+h1{  
+color: whitesmoke; 
+font-size: 70px; 
+text-align: center; 
+padding-top: 70px; 
+margin-bottom: 90px;
+
+} 
+
+.contenedor{
+    position: relative;
+    
+}
+
+.overlay {
+    position: absolute;
+    background-color: beige;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    opacity: 0;
+
+}
+
+.overlay:hover{
+    opacity: 1;
+    
+}
+
+
+  
+p{  
+
+text-align: center; 
+
+color: whitesmoke; 
+font-size: 25px; 
+font-style: italic; 
+padding-bottom: 30px; 
+
+} 
+
+.texto{
+    color: black;
+    font-size: 30px;
+    font
+    
+}
+  
+a {  
+    
+color: whitesmoke;
+margin-bottom: 40px;
+} 
+  
+
+a.visited{ 
+    
+color:beige; } 
+  
+a
+
+  
+
+.blanconegro{  
+
+filter: saturate(0); 
+height: 100%;
+width: 100%;
+} 
+
+
+
+.blanconegro:hover { 
+
+filter: saturate(1); } 
+
+
+
+body { 
+
+background-color: black; 
+margin: 0; } 
+
+
+
+.abuelo{ 
+    
+display: flex;
+flex-direction: row; }  
+
+
+
+.padre { 
+
+display: flex; 
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+height: 100vh;
+overflow-y: auto;
+} 
+
+
+
+
+.columna{
+    
+display: flex;
+flex-direction: column;
+margin-left: 25px;
+margin-right: 25px;
+
+}
+
+
+
+.columna:nth-child(even) {
+    
+padding-top: 30px; }
+
+
+  
+header{
+    
+flex: 2; }
+
+#cookies {
+    position: fixed;
+    bottom: 10px;
+    left: 30%;
+    width: 40%;
+    height: 200px;
+    background-color: white;
+    animation-name: muestraCookies;
+    animation-duration: 4s;
+    z-index: 1;
+    color: black;
+    font-size: 25px;
+    
+}
+
+#cierraCookies{
+    background-color: black;
+    color: white;
+}
+
+@keyframes muestraCookies {
+    from {
+        height: 0;
+    }
+    
+    to {
+        height: 300px;
+    }
+}
+
+  
