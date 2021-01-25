@@ -1,3 +1,33 @@
+#cookies {
+    position: fixed;
+    bottom: 10px;
+    left: 30%;
+    width: 40%;
+    height: 200px;
+    background-color: black;
+    animation-name: Cookies;
+    animation-duration: 4s;
+    z-index: 1;
+    color: white;
+    font-size: 25px;
+    
+}
+
+#cierra{
+    background-color: white;
+    color: black;
+}
+
+@keyframes Cookies {
+    from {
+        height: 0;
+    }
+    
+    to {
+        height: 200px;
+    }
+}
+
 #padre{
 display: flex; 
 flex-wrap: wrap;
@@ -78,8 +108,7 @@ li{
     display: flex;
     position: relative;
     width: 100%;
-    height: 400px;
-    margin: 0px;
+
 }
 
 #columna{
@@ -90,29 +119,46 @@ li{
     align-items: center;
 
 }
-
-#alba{
-    
-    width: 50%;
-    height: 600px;
-  
-} 
+ 
 
 a:visited{
     color: white;
 }
 
-#mono{
-    
-    width: 50%;
-    
-}
+
 
 #cromo{
-    width: 50%;
+    width: 65%;
+    margin: 60px;
 }
 
-#reportaje{
-    width: 50%;
+#descubre{
+    font-size: 50px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
+#subtitulosblog{
+    font-size: 30px;
+}
+
+main{
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: black;
+    color: white;
+  
+    
+}
+
+footer{
+margin-top: 40px;
+background-color: black;
+height: 100px;
+text-align: center;
+padding: 40px;
+
+}
